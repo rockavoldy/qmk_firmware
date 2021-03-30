@@ -24,12 +24,15 @@
 #undef PRODUCT
 #undef DESCRIPTION
 
-#define VENDOR_ID       0x4B42
-#define PRODUCT_ID      0x6067
-#define DEVICE_VER      0x0002
-#define MANUFACTURER    Potato Inc.
-#define PRODUCT         Rusty KB
-#define DESCRIPTION     Look, a Keyboard !
+#define VENDOR_ID 0x4B42
+#define PRODUCT_ID 0x6067
+#define DEVICE_VER 0x0002
+#define MANUFACTURER Potato Inc.
+#define PRODUCT Rusty KB
+#define DESCRIPTION Look, a Keyboard !
 
 #define RAW_USAGE_PAGE 0xFF60
 #define RAW_USAGE_ID 0x61
+
+#undef BACKLIGHT_PIN
+#undef RGB_DI_PIN
